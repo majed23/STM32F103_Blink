@@ -1,0 +1,6 @@
+build/
+.sconsign.dblite
+.vscode/.cortex-debug.peripherals.state.json
+.vscode/.cortex-debug.registers.state.json
+Makefile
+.mxproject

@@ -1,0 +1,17 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build STM with SCons",
+			"type": "shell",
+			"command": "scons", // "scons" command in command prompt
+			//"args": ["-g", "-o", "firmware", "main.cpp", "-I/", "-D", "USE_STM"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
