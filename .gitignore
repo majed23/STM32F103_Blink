@@ -4,3 +4,6 @@ build/
 .vscode/.cortex-debug.registers.state.json
 Makefile
 .mxproject
+.vscode/BROWSE.VC.DB
+.vscode/BROWSE.VC.DB-shm
+.vscode/BROWSE.VC.DB-wal

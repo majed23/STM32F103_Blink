@@ -38,7 +38,6 @@ env.Append(CCFLAGS = [
 env.Append(CXXFLAGS = [
     '-mcpu=cortex-m3',
     '-mthumb',
-    #'-mfpu=fpv4-sp-d16',
     '-mfloat-abi=soft',
     '-O0',
     '-g3',
@@ -61,8 +60,7 @@ env.Append(LINKFLAGS = [
     '--specs=nosys.specs',
     '-mcpu=cortex-m3',
     '-mthumb',
-    '-mfloat-abi=hard',
-    '-mfpu=fpv4-sp-d16',
+    '-mfloat-abi=soft',
     ]) 
  
 # defines
@@ -70,6 +68,7 @@ env.Append(CPPDEFINES = [
     'STM32F103xx',
 	'STM32F103xB'
     'USE_HAL_DRIVER',
+    'USE_FULL_LL_DRIVER',
 ])
 
 srcFiles = [

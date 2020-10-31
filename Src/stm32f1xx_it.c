@@ -73,7 +73,7 @@ void NMI_Handler(void)
 
   /* USER CODE END NonMaskableInt_IRQn 0 */
   /* USER CODE BEGIN NonMaskableInt_IRQn 1 */
-  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+  
   /* USER CODE END NonMaskableInt_IRQn 1 */
 }
 
@@ -88,7 +88,7 @@ void HardFault_Handler(void)
   while (1)
   {
     /* USER CODE BEGIN W1_HardFault_IRQn 0 */
-    HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+
     /* USER CODE END W1_HardFault_IRQn 0 */
   }
 }
@@ -187,7 +187,7 @@ void SysTick_Handler(void)
   /* USER CODE END SysTick_IRQn 0 */
   HAL_IncTick();
   /* USER CODE BEGIN SysTick_IRQn 1 */
-  //LedToggle();	
+  LedToggle();	
   /* USER CODE END SysTick_IRQn 1 */
 }
 
