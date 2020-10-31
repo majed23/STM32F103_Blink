@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name":"comment: this file is only used for intellisense"
+            "name": "comment: this file is only used for intellisense"
         },
         {
             "name": "Win",
@@ -22,11 +22,11 @@
         {
             "name": "STM32",
             "includePath": [
-                "${workspaceRoot}",
-                "C:/GCC_ARM_9_2020_q29/arm-none-eabi/include",
-                "C:/GCC_ARM_9_2020_q29/arm-none-eabi/include/machine",
-                "C:/GCC_ARM_9_2020_q29/arm-none-eabi/include/newlib-nano",
-                "C:/GCC_ARM_9_2020_q29/arm-none-eabi/include/sys"
+                "${workspaceRoot}/**",
+                "C:/GCC_ARM_9_2020_q2/arm-none-eabi/include",
+                "C:/GCC_ARM_9_2020_q2/arm-none-eabi/include/machine",
+                "C:/GCC_ARM_9_2020_q2/arm-none-eabi/include/newlib-nano",
+                "C:/GCC_ARM_9_2020_q2/arm-none-eabi/include/sys",
             ],
             "defines": [
                 "STM32F103xx",
@@ -37,7 +37,7 @@
             "intelliSenseMode": "gcc-x64",
             "browse": {
                 "path": [
-                    "${workspaceRoot}",
+                    "${workspaceRoot}"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"
