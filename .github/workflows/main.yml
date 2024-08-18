@@ -1,4 +1,4 @@
-            - name: Build STM32CubeIde project
+ - name: STM32F103_Blink
   # You may pin to the exact commit or the version.
   # uses: xanderhendriks/action-build-stm32cubeide@025626600baf6b78efefc9765aeaf685ba106396
   uses: xanderhendriks/action-build-stm32cubeide@v11.1
