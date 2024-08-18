@@ -3,8 +3,6 @@
   # uses: xanderhendriks/action-build-stm32cubeide@025626600baf6b78efefc9765aeaf685ba106396
   uses: xanderhendriks/action-build-stm32cubeide@v11.1
   with:
-    # Path to STM32CubeIde project
-    project-path: 
-    # Which target in the STM32CubeIde project to build. Format: target/[build-configuration]
-    project-target: 
+    project-path: 'STM32F103_Blink'
+   project-target: 'sample_application'
           
